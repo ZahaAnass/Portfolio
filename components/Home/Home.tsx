@@ -2,6 +2,7 @@ import Hero from "./Hero/Hero"
 import Projects from "./Projects/Projects"
 import Resume from "./Resume/Resume"
 import Services from "./Service/Services"
+import Skills from "./Skills/Skills"
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Services />
             <Resume />
             <Projects />
+            <Skills />
         </div>
     )
 }
