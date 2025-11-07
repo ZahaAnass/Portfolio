@@ -6,6 +6,7 @@ import Services from "./Service/Services"
 import Skills from "./Skills/Skills"
 import DevStatusAlert from "../Helper/UnderDev"
 import Blog from "./Blog/Blog"
+import Contact from "./Contact/Contact"
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
             <Skills />
             <ClientReview />
             <Blog />
+            <Contact />
         </div>
     )
 }
