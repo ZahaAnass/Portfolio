@@ -5,6 +5,7 @@ import Resume from "./Resume/Resume"
 import Services from "./Service/Services"
 import Skills from "./Skills/Skills"
 import DevStatusAlert from "../Helper/UnderDev"
+import Blog from "./Blog/Blog"
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <Projects />
             <Skills />
             <ClientReview />
+            <Blog />
         </div>
     )
 }
