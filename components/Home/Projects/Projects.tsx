@@ -9,7 +9,7 @@ const Projects = () => {
             </h1>
             <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
                 {/* Project 1 */}
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <Image src="/images/p1.jpg" alt="project 1" width={800} height={650} />
                     <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
                         Modern Finance Dashboard UI
@@ -19,7 +19,7 @@ const Projects = () => {
                     </h1>
                 </div>
                 {/* Project 2 */}
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
                     <Image src="/images/p2.jpg" alt="project 2" width={800} height={650} />
                     <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
                         Portfolio Website for Creatives
@@ -29,7 +29,7 @@ const Projects = () => {
                     </h1>
                 </div>
                 {/* Project 3 */}
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
                     <Image src="/images/p3.jpg" alt="project 3" width={800} height={650} />
                     <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
                         Brand Identity for Startups
@@ -39,7 +39,7 @@ const Projects = () => {
                     </h1>
                 </div>
                 {/* Project 4 */}
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
                     <Image src="/images/p4.jpg" alt="project 4" width={800} height={650} />
                     <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
                         SaaS Dashboard Development
